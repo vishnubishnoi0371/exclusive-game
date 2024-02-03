@@ -1,23 +1,35 @@
-import logo from './logo.svg';
-import './App.css';
+import logo from "./logo.svg";
+import "./App.css";
+import My_Nav from "./components/My_nav";
+import Section_1 from "./components/Section_1";
+import Marca from "./components/Marca";
+import Slots from "./components/Slots";
+import Jackpot from "./components/Jackpot";
+import Casino from "./components/Casino";
+import Mas from "./components/Mas";
+import Ofertas from "./components/Ofertas";
+import Eloss from "./components/Eloss";
+import Lanza from "./components/Lanza";
+import My_footer from "./components/My_footer";
+import Accordion_Faq from "./components/Accordion_Faq";
+import Backtotop from "./components/Backtotop";
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <My_Nav />
+      <Backtotop/>
+      <Section_1 />
+      <Marca />
+      {/* <Slots /> */}
+      <Jackpot />
+      <Casino />
+      <Mas />
+      <Ofertas />
+      <Eloss/>
+      <Accordion_Faq/>
+      <Lanza/>
+      <My_footer/>
     </div>
   );
 }
