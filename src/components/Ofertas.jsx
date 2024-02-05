@@ -17,7 +17,10 @@ const Ofertas = () => {
   }, []);
   return (
     <div>
-      <div className="bg-[#00141b] relative mt-[-2px] overflow-hidden">
+      <div
+        id="Ofertas"
+        className="bg-[#00141b] relative mt-[-2px] overflow-hidden"
+      >
         <div className="container max-w-[1164px] px-3 mx-auto pb-5 md:py-[50px]">
           <div className="flex flex-col items-center justify-center">
             <h2
@@ -30,7 +33,7 @@ const Ofertas = () => {
             <p
               data-aos="zoom-in"
               data-aos-duration="2000"
-              className="sm:text-base text-[14px] text-center md:text-start font-medium font-ff-inter leading-[26px]  text-white mb-[60px]"
+              className="sm:text-base text-[14px] text-center md:text-start font-medium font-ff-inter md:leading-[26px]  text-white mb-4 md:mb-[60px]"
             >
               Te ofrecemos las mejores experiencias de juegos para tus clientes.
             </p>
@@ -122,7 +125,11 @@ const Ofertas = () => {
             <span className="md:w-[280px] w-[180px] h-[180px] z-20 md:h-[280px] bg-[#69e2a9] absolute left-[8%] top-[5%] md:top-[10%] opacity-[50%] rounded-full ft_ep_1"></span>
           </div>
           <div className="border-[.5px] relative z-30 border-white rounded-[16px] bg-[#062023] p-3 pt-[38px] mb-6 lg:mb-[64px] pb-[41px] bg-luxury">
-            <div className="flex flex-col xs_1:items-center justify-center">
+            <div
+              data-aos="zoom-in"
+              data-aos-duration="2000"
+              className="flex flex-col xs_1:items-center justify-center"
+            >
               <h2 className="text-[32px] font-normal font-ff-anton leading-[42px] text-white mb-[16px]">
                 Luxury
               </h2>

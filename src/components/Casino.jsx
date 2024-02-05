@@ -10,7 +10,7 @@ const Casino = () => {
   }, []);
   return (
     <div className="bg-white casino-bg-img lg:bg-[#00141b] mt-[-2px] overflow-hidden">
-      <div className="container max-w-[1164px] px-3 mx-auto py-10 lg:py-[150px] xl:py-[290px] mb-[44px]">
+      <div className="container max-w-[1164px] px-3 mx-auto py-10 lg:py-[150px] xl:py-[290px] md:mb-[44px]">
         <div className="flex flex-row flex-wrap items-center justify-center -mx-3 ">
           <div
             data-aos="fade-right"

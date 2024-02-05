@@ -9,17 +9,17 @@ const AccordionItem = ({
 }) => {
   return (
     <div className="bg-[#00141b] ">
-      <div className="mb-5 lg:mb-[32px] bg-[#00141b] p-[16px_20px] rounded-[6px] border-[1px] border-[#FFFFFF80]">
+      <div className="mb-2 md:mb-5 lg:mb-[32px] bg-[#00141b] p-[12px_14px] md:p-[16px_20px] rounded-[6px] border-[1px] border-[#FFFFFF80]">
         <div className="flex justify-between items-center bg-transparent  cursor-pointer">
           <span
             style={headingParaStyle}
-            className=" font-ff-anton text-[20px] leading-[26px] text-[#FFF] font-normal bg-transparent"
+            className=" font-ff-anton text-base md:text-[20px] leading-[26px] text-[#FFF] font-normal bg-transparent"
             onClick={() => onToggle(index)}
           >
             {title}
           </span>
           <span
-            className=" font-medium text-base font-ff-inter text-[#cbd0d1]"
+            className=" font-medium text-[14px] md:text-base font-ff-inter text-[#cbd0d1]"
             onClick={() => onToggle(index)}
           >
             {isOpen ? "-" : "+"}
@@ -27,7 +27,7 @@ const AccordionItem = ({
         </div>
         {isOpen && (
           <div className="bg-transparent py-2">
-            <p className="  font-ff-inter text-base text-[#FFF] leading-[25.6px] font-medium opacity-[80%] bg-transparent max-w-[880px]">
+            <p className="  font-ff-inter text-[12px] md:text-base text-[#FFF] md:leading-[25.6px] font-medium opacity-[80%] bg-transparent max-w-[880px]">
               {content}
             </p>
           </div>
@@ -78,7 +78,11 @@ const Accordion_Faq = () => {
   };
   return (
     <div className="bg-[#00141b] relative">
-      <div className=" max-w-[997px] z-30  mx-auto px-3">
+      <div
+        data-aos="zoom-in"
+        data-aos-duration="2000"
+        className=" max-w-[997px] z-30  mx-auto px-3"
+      >
         <p className=" font-ff-anton font-normal text-[40px] z-30 lg:text-[48px] text-[#FFF] md:leading-[57.6px] pt-7 lg:pt-[60px] xl:pt-[130px] text-center mb-5  lg:mb-[60px]">
           Preguntas más frecuentes{" "}
         </p>
@@ -94,7 +98,7 @@ const Accordion_Faq = () => {
           />
         ))}
       </div>
-      <span className="lg:w-[480px] lg:h-[480px] h-[280px] w-[280px] bg-[#69e2a9] absolute left-[-45%] lg:left-[-18%] top-[-15%] opacity-1 lg:opacity-[50%]  rounded-full ft_ep_1"></span>
+      <span className="lg:w-[480px] lg:h-[480px] h-[280px] w-[280px] bg-[#69e2a9] absolute left-[-75%] lg:left-[-18%] top-[-15%] opacity-1 lg:opacity-[50%]  rounded-full ft_ep_1"></span>
     </div>
   );
 };

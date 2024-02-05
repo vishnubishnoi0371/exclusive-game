@@ -11,11 +11,11 @@ const Eloss = () => {
   }, []);
   return (
     <div className="bg-[#00141b] mt-[-2px]">
-      <div className="container max-w-[1164px] px-3 mx-auto pt-10 lg:pt-[50px] xl:pt-[100px]">
+      <div className="container max-w-[1164px] px-3 mx-auto pt-7 lg:pt-[50px] xl:pt-[100px]">
         <h2
           data-aos="zoom-in"
           data-aos-duration="2000"
-          className="md:text-[48px] text-[38px] font-normal font-ff-anton leading-[57px] text-white text-center mb-9 md:mb-[60px]"
+          className="md:text-[48px] text-[38px] font-normal font-ff-anton md:leading-[57px] text-white text-center mb-4 md:mb-[60px]"
         >
           Ellos eligieron apostar con nosotros
         </h2>
@@ -35,6 +35,8 @@ const Eloss = () => {
                 </div>
               </div>
               <img
+                data-aos="zoom-in"
+                data-aos-duration="2000"
                 className=" rounded-[8px] w-full h-full "
                 src={elos1}
                 alt="img"
@@ -57,6 +59,8 @@ const Eloss = () => {
                 </div>
               </div>
               <img
+                data-aos="zoom-in"
+                data-aos-duration="2000"
                 className=" rounded-[8px] w-full h-full "
                 src={elos2}
                 alt="img"
@@ -79,6 +83,8 @@ const Eloss = () => {
                 </div>
               </div>
               <img
+                data-aos="zoom-in"
+                data-aos-duration="2000"
                 className=" rounded-[8px] w-full h-full "
                 src={elos3}
                 alt="img"
@@ -90,7 +96,7 @@ const Eloss = () => {
         <p
           data-aos="zoom-in"
           data-aos-duration="2000"
-          className="text-base font-semibold  text-center font-ff-inter leading-[26px] text-white pb-[20px]"
+          className="text-base font-semibold  text-center font-ff-inter leading-[26px] text-white pb-3 mt-[-15px] sm:mt-0 md:pb-[20px]"
         >
           Clientes satisfechos que confiaron en Exclusive Games y han disfrutado
           de emocionantes experiencias de juego.{" "}

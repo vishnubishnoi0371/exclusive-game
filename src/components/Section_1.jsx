@@ -9,7 +9,10 @@ const Section_1 = () => {
     AOS.init({ once: true });
   }, []);
   return (
-    <div className="bg-[#00141b]  relative mt-[-2px] overflow-hidden">
+    <div
+      id="Misión"
+      className="bg-[#00141b]  relative mt-[-2px] overflow-hidden"
+    >
       <div className="max-w-[1200px] px-3 mx-auto py-10 sm:py-[50px] overflow-hidden">
         <div className="flex flex-row items-center justify-center flex-wrap  -mx-3 ">
           <div
@@ -18,7 +21,7 @@ const Section_1 = () => {
             className="sm:w-1/2 lg:w-1/2 px-3  md:pe-[25px] z-30"
           >
             <img
-              className="w-full rounded-[16px] mb-4 sm:mb-[60px]"
+              className="w-full h-full rounded-[16px] mb-4 sm:mb-[60px]"
               src={poker}
               alt="#"
             />
@@ -85,7 +88,7 @@ const Section_1 = () => {
             <img
               data-aos="fade-left"
               data-aos-duration="2000"
-              className="w-full rounded-[16px] mt-5 md:mt-[60px]"
+              className="w-full h-full rounded-[16px] mt-5 md:mt-[60px]"
               src={aviater}
               alt="#"
             />

@@ -2,7 +2,7 @@ import React, { useEffect, useState } from "react";
 import arow1 from "../assets/images/arrow1.png";
 import arow2 from "../assets/images/arrow2.png";
 
-import { Marcaone } from "../common_svg/icon";
+import { Marcaone, Marcathree, Marcatwo } from "../common_svg/icon";
 import Slots from "./Slots";
 
 const mycardinfo = [
@@ -12,12 +12,12 @@ const mycardinfo = [
     para: "Comprendemos a la perfección los gustos de las personas y el mundo del gaming.",
   },
   {
-    svg: <Marcaone />,
+    svg: <Marcatwo />,
     name: "Proactividad",
     para: "Somos creadores de cambios que exploran nuevas formas de entretenimiento.",
   },
   {
-    svg: <Marcaone />,
+    svg: <Marcathree />,
     name: "Innovación",
     para: "Pensamos fuera de la caja para estar siempre un paso adelante.",
   },
@@ -53,12 +53,15 @@ const Marca = () => {
     </div>
   ));
   return (
-    <div className="marca-bg bg-white lg:bg-[#00141b] pt-3 md:pt-10 lg:pb-[100px] xl:pb-[160px] mt-[-2px]">
+    <div
+      id="Tragamonedas"
+      className="marca-bg bg-white lg:bg-[#00141b] pt-3 md:pt-10 lg:pb-[100px] xl:pb-[160px] mt-[-2px]"
+    >
       <div className="max-w-[1164px]  relative px-3 mx-auto pb-10 lg:pb-14 xl:pb-[150px] ">
         <h2
           data-aos="zoom-in"
           data-aos-duration="2000"
-          className="md:text-[48px] text-[44px] font-normal font-ff-anton leading-[57px]  lg:pt-[90px]  text-center text-[#00141b]"
+          className="md:text-[48px] text-[44px] font-normal font-ff-anton leading-[57px]  lg:pt-[230px] pb-4 md:pb-[60px]  text-center text-[#00141b]"
         >
           Nuestros Atributos de Marca
         </h2>
@@ -71,13 +74,13 @@ const Marca = () => {
         </div>
         <span>
           <img
-            className="absolute top-[38%] lg:top-[45%] xl:top-[37%] left-[23%] lg:left-[22%] max-w-[200px] lg:max-w-[242px] w-full hidden md:block"
+            className="absolute top-[38%] lg:top-[58%] xl:top-[50%] left-[23%] lg:left-[22%] max-w-[200px] lg:max-w-[242px] w-full hidden md:block"
             src={arow1}
             alt=""
           />
         </span>
         <img
-          className="absolute top-[45%] lg:top-[55%] xl:top-[49%] right-[23%] lg:right-[22%] max-w-[200px] lg:max-w-[242px] w-full hidden md:block"
+          className="absolute top-[45%] lg:top-[68%] xl:top-[60%] right-[23%] lg:right-[22%] max-w-[200px] lg:max-w-[242px] w-full hidden md:block"
           src={arow2}
           alt=""
         />

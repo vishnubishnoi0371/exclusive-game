@@ -59,8 +59,8 @@ const My_footer = () => {
                 >
                   Menú principal{" "}
                 </p>
-                <ul className="ps-0 mt-3 md:mt-[16px]">
-                  <li className="mb-3">
+                <ul className="ps-0 mt-2 md:mt-[16px]">
+                  <li className="mb-1 md:mb-3">
                     <a
                       href="#"
                       className="font-medium text-base font-ff-inter  text-white relative not-italic leading-[26px] before:absolute before:w-0 before:-bottom-1  before:right-full before:duration-500  before:h-[2px] before:bg-white before:contents'' hover:before:w-full hover:before:right-0"
@@ -68,7 +68,7 @@ const My_footer = () => {
                       Hogar
                     </a>
                   </li>
-                  <li className="mb-3">
+                  <li className="mb-1 md:mb-3">
                     <a
                       href="#"
                       className="font-medium text-base font-ff-inter  text-white relative not-italic leading-[26px] before:absolute before:w-0 before:-bottom-1  before:right-full before:duration-500  before:h-[2px] before:bg-white before:contents'' hover:before:w-full hover:before:right-0"
@@ -76,7 +76,7 @@ const My_footer = () => {
                       Misión
                     </a>
                   </li>
-                  <li className="mb-3">
+                  <li className="mb-1 md:mb-3">
                     <a
                       href="#"
                       className="font-medium text-base font-ff-inter  text-white relative not-italic leading-[26px] before:absolute before:w-0 before:-bottom-1  before:right-full before:duration-500  before:h-[2px] before:bg-white before:contents'' hover:before:w-full hover:before:right-0"
@@ -84,7 +84,7 @@ const My_footer = () => {
                       Tragamonedas
                     </a>
                   </li>
-                  <li className="mb-3">
+                  <li className="mb-1 md:mb-3">
                     <a
                       href="#"
                       className="font-normal text-nowrap  cursor-pointer  font-ff-rob text-base text-white relative not-italic leading-[26px] before:absolute before:w-0 before:-bottom-1  before:right-full before:duration-500  before:h-[2px] before:bg-white before:contents'' hover:before:w-full hover:before:right-0"
@@ -92,7 +92,7 @@ const My_footer = () => {
                       Por qué elegirnos{" "}
                     </a>
                   </li>
-                  <li className="mb-3">
+                  <li className="mb-1 md:mb-3">
                     <a
                       href="#"
                       className="font-medium text-base font-ff-inter  text-white relative not-italic leading-[26px] before:absolute before:w-0 before:-bottom-1  before:right-full before:duration-500  before:h-[2px] before:bg-white before:contents'' hover:before:w-full hover:before:right-0"
@@ -106,8 +106,8 @@ const My_footer = () => {
                 <p className="text-white  text-base font-bold font-ff-inter  leading-[26px] ">
                   Atención al cliente
                 </p>
-                <ul className="ps-0 mt-3  md:mt-[16px]">
-                  <li className="mb-3 ">
+                <ul className="ps-0 mt-2  md:mt-[16px]">
+                  <li className="mb-1 md:mb-3 ">
                     <a
                       href="#"
                       className="font-medium text-base font-ff-inter  text-white relative not-italic leading-[26px] before:absolute before:w-0 before:-bottom-1  before:right-full before:duration-500  before:h-[2px] before:bg-white before:contents'' hover:before:w-full hover:before:right-0"
@@ -115,7 +115,7 @@ const My_footer = () => {
                       ¿Necesitas ayuda?
                     </a>
                   </li>
-                  <li className="mb-3">
+                  <li className="mb-1 md:mb-3">
                     <a
                       href="#"
                       className="font-medium text-base font-ff-inter  text-white relative not-italic leading-[26px] before:absolute before:w-0 before:-bottom-1  before:right-full before:duration-500  before:h-[2px] before:bg-white before:contents'' hover:before:w-full hover:before:right-0"
@@ -123,7 +123,7 @@ const My_footer = () => {
                       política de privacidad
                     </a>
                   </li>
-                  <li className="mb-3">
+                  <li className="mb-1 md:mb-3">
                     <a
                       href="#"
                       className="font-medium text-base font-ff-inter  text-white relative not-italic leading-[26px] before:absolute before:w-0 before:-bottom-1  before:right-full before:duration-500  before:h-[2px] before:bg-white before:contents'' hover:before:w-full hover:before:right-0"
@@ -134,22 +134,22 @@ const My_footer = () => {
                 </ul>
               </div>
               <div className="xs_1:w-1/2 w-full xs_2:w-5/12  px-3">
-                <p className="text-white  text-base font-bold font-ff-inter  leading-[26px]">
+                <p className="text-white  text-base font-bold font-ff-inter pt-3 xs_2:pt-0  leading-[26px]">
                   Ponerse en contacto{" "}
                 </p>
-                <ul className="ps-0 mt-3 md:mt-[16px]">
-                  <li className="mb-3 flex items-center gap-2">
+                <ul className="ps-0  mt-2 md:mt-[16px]">
+                  <li className="mb-1 md:mb-3 flex items-center gap-2">
                     <span>
                       <Mail />
                     </span>
                     <a
-                      href="#"
+                      href="{mailto}"
                       className="font-medium  cursor-pointer  font-ff-inter text-base text-white relative not-italic leading-[26px] before:absolute before:w-0 before:-bottom-1  before:right-full before:duration-500  before:h-[2px] before:bg-white before:contents'' hover:before:w-full hover:before:right-0"
                     >
                       juegosexclusivos@gmail.com
                     </a>
                   </li>
-                  <li className="mb-3 flex items-center  gap-2">
+                  <li className="mb-1 md:mb-3 flex items-center  gap-2">
                     <Phone />
                     <a
                       href={`tel:${phoneNumber}`}
@@ -165,9 +165,9 @@ const My_footer = () => {
         </div>
       </div>{" "}
       <hr className="w-full h-[1px] bg-[#191919]" />
-      <div className="flex items-center justify-center py-[20px]">
-        <p className="text-base font-medium font-ff-inter leading-[26px] text-[#808080] text-center">
-          © Juegos exclusivos - Todos los derechos reservados 2023
+      <div className="flex items-center justify-center py-2 md:py-[20px]">
+        <p className="text-base font-medium font-ff-inter md:leading-[26px] text-[#808080] text-center">
+          © Juegos exclusivos - Todos los derechos reservados 2024
         </p>
       </div>
       <span className="w-[170px] h-[170px] bg-[#69e2a9] absolute left-[-4%] bottom-[-2%] opacity-[50%] rounded-full ft_ep_1"></span>

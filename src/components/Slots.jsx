@@ -29,7 +29,7 @@ const Slots = () => {
           <p
             data-aos="zoom-in"
             data-aos-duration="2000"
-            className="text-base mb-[60px] font-ff-inter font-medium leading-[160%] text-center max-w-[904px] text-[#00141b]"
+            className="text-base mb-4 md:mb-[60px] font-ff-inter font-medium md:leading-[160%] text-center max-w-[904px] text-[#00141b]"
           >
             En Exclusive Games, ofrecemos una selección de más de 600 juegos de
             los principales desarrolladores, como Aristocrat, Amatic, EGT,

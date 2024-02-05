@@ -100,10 +100,7 @@ body {
   border-radius: 8px !important;
   transition: all 400ms linear !important;
 }
-.Juegos-card:hover .img_layer {
-  opacity: 2 !important;
-  border: 1px solid red;
-}
+
 .nav_bg {
   background: rgba(255, 255, 255, 0.1);
   backdrop-filter: blur(26px);
@@ -113,4 +110,24 @@ body {
 }
 .green_sh:hover {
   box-shadow: 0px 0px 12px #6ae4a6;
+}
+/* Loader */
+.waviy {
+  -webkit-box-reflect: below -20px linear-gradient(transparent, rgba(0, 0, 0, 0.2));
+}
+.waviy span {
+  font-family: "Alfa Slab One", cursive;
+  animation: waviy 1s infinite;
+  animation-delay: calc(0.2s * var(--i));
+}
+
+@keyframes waviy {
+  0%,
+  40%,
+  100% {
+    transform: translateY(0);
+  }
+  20% {
+    transform: translateY(-20px);
+  }
 }
