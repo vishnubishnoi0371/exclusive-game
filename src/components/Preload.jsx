@@ -28,16 +28,34 @@ const Preload = () => {
         className="preloader min-h-full z-50 min-w-full flex items-center justify-center  bg-gradient-to-r from-[#00141B] to-[#001410] fixed top-0 start-0"
         style={{ display: Load ? "none" : "block", zIndex: 80 }}
       >
-        <div class="waviy relative text-[40px] md:text-[60px] flex justify-center items-center m-auto h-screen">
-          <span  className="--i:1 inline-block relative text-white uppercase">E</span>
-          <span className="--i:2 inline-block relative text-white uppercase">X</span>
-          <span className="--i:3 inline-block relative text-white uppercase">C</span>
-          <span className="--i:4 inline-block relative text-white uppercase">L</span>
-          <span className="--i:5 inline-block relative text-white uppercase">U</span>
-          <span className="--i:7 inline-block relative text-white uppercase">S</span>
-          <span className="--i:8 inline-block relative text-white uppercase">I</span>
-          <span className="--i:9 inline-block relative text-white uppercase">V</span>
-          <span className="--i:10 inline-block relative text-white uppercase">E</span>
+        <div class="waviy relative text-[40px] md:text-[60px] font-ff-anton leading-[150%] flex justify-center items-center m-auto h-screen">
+          <span className="--i:1 inline-block relative text-white uppercase">
+            E
+          </span>
+          <span className="--i:2 inline-block relative text-white uppercase">
+            X
+          </span>
+          <span className="--i:3 inline-block relative text-white uppercase">
+            C
+          </span>
+          <span className="--i:4 inline-block relative text-white uppercase">
+            L
+          </span>
+          <span className="--i:5 inline-block relative text-white uppercase">
+            U
+          </span>
+          <span className="--i:7 inline-block relative text-white uppercase">
+            S
+          </span>
+          <span className="--i:8 inline-block relative text-white uppercase">
+            I
+          </span>
+          <span className="--i:9 inline-block relative text-white uppercase">
+            V
+          </span>
+          <span className="--i:10 inline-block relative text-white uppercase">
+            E
+          </span>
         </div>
       </div>
     </div>

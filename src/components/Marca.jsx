@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
-import arow1 from "../assets/images/arrow1.png";
-import arow2 from "../assets/images/arrow2.png";
+import arow1 from "../assets/images/arrow1.webp";
+import arow2 from "../assets/images/arrow2.webp";
 
 import { Marcaone, Marcathree, Marcatwo } from "../common_svg/icon";
 import Slots from "./Slots";

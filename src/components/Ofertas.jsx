@@ -1,6 +1,6 @@
 import React, { useEffect } from "react";
 import silver from "../assets/images/silver.webp";
-import platnium from "../assets/images/platnium.png";
+import platnium from "../assets/images/platnium.webp";
 import { Tickmark } from "../common_svg/icon";
 import Samebtn from "./Samebtn";
 import btnline from "../assets/images/btn_line.webp";

@@ -2,7 +2,7 @@ import React, { useEffect } from "react";
 import slot1 from "../assets/images/slot1.webp";
 // import slot1 from "../assets/images/slot1.png";
 import slot3 from "../assets/images/slot3.webp";
-import slot2 from "../assets/images/slot2.png";
+import slot2 from "../assets/images/slot2.webp";
 import slot4 from "../assets/images/slot4.webp";
 import slot5 from "../assets/images/slot5.webp";
 import slot6 from "../assets/images/slot6.webp";

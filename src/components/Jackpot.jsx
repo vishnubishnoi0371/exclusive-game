@@ -2,7 +2,7 @@ import React, { useEffect } from "react";
 import jackpot from "../assets/images/jackpot1.webp";
 import vivo1 from "../assets/images/vivo1.webp";
 import vivo2 from "../assets/images/vivo2.webp";
-import vivo3 from "../assets/images/vivo3.png";
+import vivo3 from "../assets/images/vivo3.webp";
 import btnline from "../assets/images/white-line.webp";
 import { Tickmark } from "../common_svg/icon";
 import AOS from "aos";

@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import { Minus, Plus } from "../common_svg/icon";
 const AccordionItem = ({
   index,
   title,
@@ -10,7 +11,7 @@ const AccordionItem = ({
   return (
     <div className="bg-[#00141b] ">
       <div className="mb-2 md:mb-5 lg:mb-[32px] bg-[#00141b] p-[12px_14px] md:p-[16px_20px] rounded-[6px] border-[1px] border-[#FFFFFF80]">
-        <div className="flex justify-between items-center bg-transparent  cursor-pointer">
+        <div className="flex justify-between items-center bg-transparent  cursor-pointer"   onClick={() => onToggle(index)}>
           <span
             style={headingParaStyle}
             className=" font-ff-anton text-base md:text-[20px] leading-[26px] text-[#FFF] font-normal bg-transparent"
@@ -19,10 +20,10 @@ const AccordionItem = ({
             {title}
           </span>
           <span
-            className=" font-medium text-[14px] md:text-base font-ff-inter text-[#cbd0d1]"
+            className=" text-[#cbd0d1]"
             onClick={() => onToggle(index)}
           >
-            {isOpen ? "-" : "+"}
+            {isOpen ? <Minus/> : <Plus/>}
           </span>
         </div>
         {isOpen && (

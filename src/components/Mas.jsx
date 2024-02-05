@@ -1,5 +1,5 @@
 import React, { useEffect } from "react";
-import mas7 from "../assets/images/mas7.png";
+import mas7 from "../assets/images/mas7.webp";
 import AOS from "aos";
 import "aos/dist/aos.css";
 import { Mas1, Mas2, Mas3 } from "../common_svg/icon";

@@ -63,7 +63,7 @@ const My_footer = () => {
                   <li className="mb-1 md:mb-3">
                     <a
                       href="#"
-                      className="font-medium text-base font-ff-inter  text-white relative not-italic leading-[26px] before:absolute before:w-0 before:-bottom-1  before:right-full before:duration-500  before:h-[2px] before:bg-white before:contents'' hover:before:w-full hover:before:right-0"
+                      className="font-medium text-base font-ff-inter  text-[#cccccc] relative not-italic leading-[26px] before:absolute before:w-0 before:-bottom-1  before:right-full before:duration-500  before:h-[2px] before:bg-white before:contents'' hover:before:w-full hover:before:right-0"
                     >
                       Hogar
                     </a>
@@ -71,7 +71,7 @@ const My_footer = () => {
                   <li className="mb-1 md:mb-3">
                     <a
                       href="#"
-                      className="font-medium text-base font-ff-inter  text-white relative not-italic leading-[26px] before:absolute before:w-0 before:-bottom-1  before:right-full before:duration-500  before:h-[2px] before:bg-white before:contents'' hover:before:w-full hover:before:right-0"
+                      className="font-medium text-base font-ff-inter  text-[#cccccc] relative not-italic leading-[26px] before:absolute before:w-0 before:-bottom-1  before:right-full before:duration-500  before:h-[2px] before:bg-white before:contents'' hover:before:w-full hover:before:right-0"
                     >
                       Misión
                     </a>
@@ -79,7 +79,7 @@ const My_footer = () => {
                   <li className="mb-1 md:mb-3">
                     <a
                       href="#"
-                      className="font-medium text-base font-ff-inter  text-white relative not-italic leading-[26px] before:absolute before:w-0 before:-bottom-1  before:right-full before:duration-500  before:h-[2px] before:bg-white before:contents'' hover:before:w-full hover:before:right-0"
+                      className="font-medium text-base font-ff-inter  text-[#cccccc] relative not-italic leading-[26px] before:absolute before:w-0 before:-bottom-1  before:right-full before:duration-500  before:h-[2px] before:bg-white before:contents'' hover:before:w-full hover:before:right-0"
                     >
                       Tragamonedas
                     </a>
@@ -87,7 +87,7 @@ const My_footer = () => {
                   <li className="mb-1 md:mb-3">
                     <a
                       href="#"
-                      className="font-normal text-nowrap  cursor-pointer  font-ff-rob text-base text-white relative not-italic leading-[26px] before:absolute before:w-0 before:-bottom-1  before:right-full before:duration-500  before:h-[2px] before:bg-white before:contents'' hover:before:w-full hover:before:right-0"
+                      className="font-normal text-nowrap  cursor-pointer  font-ff-rob text-base text-[#cccccc] relative not-italic leading-[26px] before:absolute before:w-0 before:-bottom-1  before:right-full before:duration-500  before:h-[2px] before:bg-white before:contents'' hover:before:w-full hover:before:right-0"
                     >
                       Por qué elegirnos{" "}
                     </a>
@@ -95,7 +95,7 @@ const My_footer = () => {
                   <li className="mb-1 md:mb-3">
                     <a
                       href="#"
-                      className="font-medium text-base font-ff-inter  text-white relative not-italic leading-[26px] before:absolute before:w-0 before:-bottom-1  before:right-full before:duration-500  before:h-[2px] before:bg-white before:contents'' hover:before:w-full hover:before:right-0"
+                      className="font-medium text-base font-ff-inter  text-[#cccccc] relative not-italic leading-[26px] before:absolute before:w-0 before:-bottom-1  before:right-full before:duration-500  before:h-[2px] before:bg-white before:contents'' hover:before:w-full hover:before:right-0"
                     >
                       Ofertas{" "}
                     </a>
@@ -110,7 +110,7 @@ const My_footer = () => {
                   <li className="mb-1 md:mb-3 ">
                     <a
                       href="#"
-                      className="font-medium text-base font-ff-inter  text-white relative not-italic leading-[26px] before:absolute before:w-0 before:-bottom-1  before:right-full before:duration-500  before:h-[2px] before:bg-white before:contents'' hover:before:w-full hover:before:right-0"
+                      className="font-medium text-base font-ff-inter  text-[#cccccc] relative not-italic leading-[26px] before:absolute before:w-0 before:-bottom-1  before:right-full before:duration-500  before:h-[2px] before:bg-white before:contents'' hover:before:w-full hover:before:right-0"
                     >
                       ¿Necesitas ayuda?
                     </a>
@@ -118,7 +118,7 @@ const My_footer = () => {
                   <li className="mb-1 md:mb-3">
                     <a
                       href="#"
-                      className="font-medium text-base font-ff-inter  text-white relative not-italic leading-[26px] before:absolute before:w-0 before:-bottom-1  before:right-full before:duration-500  before:h-[2px] before:bg-white before:contents'' hover:before:w-full hover:before:right-0"
+                      className="font-medium text-base font-ff-inter  text-[#cccccc] relative not-italic leading-[26px] before:absolute before:w-0 before:-bottom-1  before:right-full before:duration-500  before:h-[2px] before:bg-white before:contents'' hover:before:w-full hover:before:right-0"
                     >
                       política de privacidad
                     </a>
@@ -126,7 +126,7 @@ const My_footer = () => {
                   <li className="mb-1 md:mb-3">
                     <a
                       href="#"
-                      className="font-medium text-base font-ff-inter  text-white relative not-italic leading-[26px] before:absolute before:w-0 before:-bottom-1  before:right-full before:duration-500  before:h-[2px] before:bg-white before:contents'' hover:before:w-full hover:before:right-0"
+                      className="font-medium text-base font-ff-inter  text-[#cccccc] relative not-italic leading-[26px] before:absolute before:w-0 before:-bottom-1  before:right-full before:duration-500  before:h-[2px] before:bg-white before:contents'' hover:before:w-full hover:before:right-0"
                     >
                       Términos de servicios
                     </a>
@@ -143,8 +143,8 @@ const My_footer = () => {
                       <Mail />
                     </span>
                     <a
-                      href="{mailto}"
-                      className="font-medium  cursor-pointer  font-ff-inter text-base text-white relative not-italic leading-[26px] before:absolute before:w-0 before:-bottom-1  before:right-full before:duration-500  before:h-[2px] before:bg-white before:contents'' hover:before:w-full hover:before:right-0"
+                      href="mailto:juegosexclusivos@gmail.com"
+                      className="font-medium  cursor-pointer  font-ff-inter text-base text-[#cccccc] relative not-italic leading-[26px] before:absolute before:w-0 before:-bottom-1  before:right-full before:duration-500  before:h-[2px] before:bg-white before:contents'' hover:before:w-full hover:before:right-0"
                     >
                       juegosexclusivos@gmail.com
                     </a>
@@ -153,7 +153,7 @@ const My_footer = () => {
                     <Phone />
                     <a
                       href={`tel:${phoneNumber}`}
-                      className="font-medium text-nowrap cursor-pointer  font-ff-inter text-base text-white relative not-italic leading-[26px] before:absolute before:w-0 before:-bottom-1  before:right-full before:duration-500  before:h-[2px] before:bg-white before:contents'' hover:before:w-full hover:before:right-0"
+                      className="font-medium text-nowrap cursor-pointer  font-ff-inter text-base text-[#cccccc] relative not-italic leading-[26px] before:absolute before:w-0 before:-bottom-1  before:right-full before:duration-500  before:h-[2px] before:bg-white before:contents'' hover:before:w-full hover:before:right-0"
                     >
                       (101)342-7873{" "}
                     </a>
