@@ -19,7 +19,7 @@ const Mas = () => {
               data-aos-duration="2000"
               className="md:w-1/2 z-30 w-full ps-3 pe-[22px]"
             >
-              <img className="w-full h-full rounded-[8px]" src={mas7} alt="" />
+              <img className="w-full h-full rounded-[8px]" src={mas7} alt="mas7" />
             </div>
             <div
               data-aos="fade-left"

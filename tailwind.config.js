@@ -25,6 +25,20 @@ module.exports = {
         xxs: "450px",
         sm_2: "650px",
       },
+      animation: {
+        rotate: "caramdice 6s infinite linear",
+        flip: "cardflip 3s infinite linear",
+      },
+      keyframes: {
+        caramdice: {
+          "0%": { transform: "rotate(360deg)" },
+        },
+        cardflip: {
+          "0%": { transform: "translateY(0%)" },
+          "50%": { transform: "translateY(-9%)" },
+          "100%": { transform: "translateY(0%)" },
+        },
+      },
     },
   },
   plugins: [],

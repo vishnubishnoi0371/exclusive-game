@@ -21,7 +21,7 @@ const My_Nav = () => {
     setshow(false);
   };
   return (
-    <div className="bg-[url('../src/assets/images/hero_bg.webp')] lg:min-h-[810px] min-h-[550px] flex flex-col bg-no-repeat bg-100% md:min-h-[800px] overflow-hidden ">
+    <div className="bg-[url('../src/assets/images/hero_bg.webp')] lg:min-h-[810px] min-h-[750px] flex flex-col bg-no-repeat bg-100% md:min-h-[800px] overflow-hidden ">
       <div className=" relative z-30">
         <nav className=" nav_bg py-[19px]">
           <div className=" container  mx-auto max-w-[1164px] px-3">
@@ -40,7 +40,7 @@ const My_Nav = () => {
                     <a
                       onClick={Movement}
                       href="#Hogar"
-                      className=" font-medium text-[16px] ff_inter text-[#d2d8da] hover:text-white duration-300  relative after:absolute after:bg-[#fff] after:w-0 after:h-[2px] after:bottom-[-5px] after:right-[50%] hover:after:right-[0] after:rounded-full  after:duration-300 inline hover:after:w-[100%]"
+                      className=" font-medium text-[16px] font-ff-inter text-[#d2d8da] hover:text-white duration-300  relative after:absolute after:bg-[#fff] after:w-0 after:h-[2px] after:bottom-[-5px] after:right-[50%] hover:after:right-[0] after:rounded-full  after:duration-300 inline hover:after:w-[100%]"
                     >
                       Hogar
                     </a>
@@ -49,7 +49,7 @@ const My_Nav = () => {
                     <a
                       onClick={Movement}
                       href="#Misión"
-                      className=" font-medium text-[16px] ff_inter text-[#d2d8da] hover:text-white duration-300 relative after:absolute after:bg-[#fff] after:w-0 after:h-[2px] after:bottom-[-5px] after:right-[50%] hover:after:right-[0] after:rounded-full  after:duration-300 inline hover:after:w-[100%]"
+                      className=" font-medium text-[16px] font-ff-inter text-[#d2d8da] hover:text-white duration-300 relative after:absolute after:bg-[#fff] after:w-0 after:h-[2px] after:bottom-[-5px] after:right-[50%] hover:after:right-[0] after:rounded-full  after:duration-300 inline hover:after:w-[100%]"
                     >
                       Misión
                     </a>
@@ -58,7 +58,7 @@ const My_Nav = () => {
                     <a
                       onClick={Movement}
                       href="#Tragamonedas"
-                      className=" font-medium text-[16px] ff_inter text-[#d2d8da] hover:text-white duration-300 relative after:absolute after:bg-[#fff] after:w-0 after:h-[2px] after:bottom-[-5px] after:right-[50%] hover:after:right-[0] after:rounded-full  after:duration-300 inline hover:after:w-[100%]"
+                      className=" font-medium text-[16px] font-ff-inter text-[#d2d8da] hover:text-white duration-300 relative after:absolute after:bg-[#fff] after:w-0 after:h-[2px] after:bottom-[-5px] after:right-[50%] hover:after:right-[0] after:rounded-full  after:duration-300 inline hover:after:w-[100%]"
                     >
                       Tragamonedas
                     </a>
@@ -67,7 +67,7 @@ const My_Nav = () => {
                     <a
                       onClick={Movement}
                       href="#elegirnos"
-                      className=" font-medium text-[16px] ff_inter text-[#d2d8da] hover:text-white duration-300 relative after:absolute after:bg-[#fff] after:w-0 after:h-[2px] after:bottom-[-5px] after:right-[50%] hover:after:right-[0] after:rounded-full  after:duration-300 inline hover:after:w-[100%]"
+                      className=" font-medium text-[16px] font-ff-inter text-[#d2d8da] hover:text-white duration-300 relative after:absolute after:bg-[#fff] after:w-0 after:h-[2px] after:bottom-[-5px] after:right-[50%] hover:after:right-[0] after:rounded-full  after:duration-300 inline hover:after:w-[100%]"
                     >
                       Por qué elegirnos
                     </a>
@@ -76,13 +76,13 @@ const My_Nav = () => {
                     <a
                       onClick={Movement}
                       href="#Ofertas"
-                      className=" font-medium text-[16px] ff_inter text-[#d2d8da] hover:text-white duration-300 relative after:absolute after:bg-[#fff] after:w-0 after:h-[2px] after:bottom-[-5px] after:right-[50%] hover:after:right-[0] after:rounded-full  after:duration-300 inline hover:after:w-[100%]"
+                      className=" font-medium text-[16px] font-ff-inter text-[#d2d8da] hover:text-white duration-300 relative after:absolute after:bg-[#fff] after:w-0 after:h-[2px] after:bottom-[-5px] after:right-[50%] hover:after:right-[0] after:rounded-full  after:duration-300 inline hover:after:w-[100%]"
                     >
                       Ofertas
                     </a>
                   </li>
                   <div className=" relative lg:hidden z-[10]">
-                    <button className=" border border-[#fff] px-[46px] py-[13px] text-white text-[16px] font-bold ff_inter rounded-[41px] ">
+                    <button className=" border border-[#fff] px-[46px] py-[13px] text-white text-[16px] font-bold font-ff-inter rounded-[41px] ">
                       Acceso
                     </button>
                     <img
@@ -94,7 +94,7 @@ const My_Nav = () => {
                 </ul>
               </div>
               <div className=" relative hidden lg:block z-[10]">
-                <button className=" border border-[#fff] hover:shadow-[inset_18rem_0_0_0_#fff] hover:text-[#00141b] shadow-[inset_0_0_0_0]  duration-500 px-[46px] py-[13px] text-white text-[16px] font-bold ff_inter rounded-[41px] white_shadow ">
+                <button className=" border border-[#fff] hover:shadow-[inset_18rem_0_0_0_#fff] hover:text-[#00141b] shadow-[inset_0_0_0_0]  duration-500 px-[46px] py-[13px] text-white text-[16px] font-bold font-ff-inter rounded-[41px] white_shadow ">
                   Acceso
                 </button>
                 <img
@@ -123,7 +123,7 @@ const My_Nav = () => {
       <div id="Hogar" className=" flex-grow flex">
         <div className=" container  mx-auto max-w-[1164px] px-3 flex items-center justify-center">
           <div
-            className="  text-center "
+            className="  text-center mt-[-150px] lg:mt-0"
             data-aos="zoom-in"
             data-aos-duration="2000"
           >
@@ -145,7 +145,7 @@ const My_Nav = () => {
                 <img
                   className="absolute bottom-[-13%] left-[-4%]"
                   src={btnline}
-                  alt=""
+                  alt="btn-line"
                 />
               </div>
             </div>

@@ -1,6 +1,5 @@
 import React, { useEffect } from "react";
 import slot1 from "../assets/images/slot1.webp";
-// import slot1 from "../assets/images/slot1.png";
 import slot3 from "../assets/images/slot3.webp";
 import slot2 from "../assets/images/slot2.webp";
 import slot4 from "../assets/images/slot4.webp";
@@ -48,7 +47,7 @@ const Slots = () => {
             <div className=" relative">
               <div className="img_layer cursor-pointer w-[100%] h-[100%] hover:opacity-[2] flex justify-center items-center opacity-0 hover:rounded-[8px] absolute top-0 left-0 duration-500  ">
                 <div className=" relative">
-                  <button className=" border-[1px] border-[#fff] font-bold text-[16px] ff_inter text-white px-[46px] py-[13px] rounded-[41px] ">
+                  <button className=" border-[1px] hover:shadow-[inset_18rem_0_0_0_#fff] hover:text-[#00141b] shadow-[inset_0_0_0_0]  duration-500 border-[#fff] font-bold text-[16px] font-ff-inter text-white px-[46px] py-[13px] rounded-[41px] ">
                     Jugar{" "}
                   </button>
                   <img
@@ -73,7 +72,7 @@ const Slots = () => {
             <div className=" relative">
               <div className="img_layer cursor-pointer w-[100%] h-[100%] hover:opacity-[2] flex justify-center items-center opacity-0 hover:rounded-[8px] absolute top-0 left-0 duration-500  ">
                 <div className=" relative">
-                  <button className=" border-[1px] border-[#fff] font-bold text-[16px] ff_inter text-white px-[46px] py-[13px] rounded-[41px] ">
+                  <button className=" border-[1px] hover:shadow-[inset_18rem_0_0_0_#fff] hover:text-[#00141b] shadow-[inset_0_0_0_0]  duration-500 border-[#fff] font-bold text-[16px] font-ff-inter text-white px-[46px] py-[13px] rounded-[41px] ">
                     Jugar{" "}
                   </button>
                   <img
@@ -98,7 +97,7 @@ const Slots = () => {
             <div className=" relative">
               <div className="img_layer cursor-pointer w-[100%] h-[100%] hover:opacity-[2] flex justify-center items-center opacity-0 hover:rounded-[8px] absolute top-0 left-0 duration-500  ">
                 <div className=" relative">
-                  <button className=" border-[1px] border-[#fff] font-bold text-[16px] ff_inter text-white px-[46px] py-[13px] rounded-[41px] ">
+                  <button className=" border-[1px] hover:shadow-[inset_18rem_0_0_0_#fff] hover:text-[#00141b] shadow-[inset_0_0_0_0]  duration-500 border-[#fff] font-bold text-[16px] font-ff-inter text-white px-[46px] py-[13px] rounded-[41px] ">
                     Jugar{" "}
                   </button>
                   <img
@@ -123,7 +122,7 @@ const Slots = () => {
             <div className=" relative">
               <div className="img_layer cursor-pointer w-[100%] h-[100%] hover:opacity-[2] flex justify-center items-center opacity-0 hover:rounded-[8px] absolute top-0 left-0 duration-500  ">
                 <div className=" relative">
-                  <button className=" border-[1px] border-[#fff] font-bold text-[16px] ff_inter text-white px-[46px] py-[13px] rounded-[41px] ">
+                  <button className="hover:shadow-[inset_18rem_0_0_0_#fff] hover:text-[#00141b] shadow-[inset_0_0_0_0]  duration-500 border-[1px] border-[#fff] font-bold text-[16px] font-ff-inter text-white px-[46px] py-[13px] rounded-[41px] ">
                     Jugar{" "}
                   </button>
                   <img
@@ -148,7 +147,7 @@ const Slots = () => {
             <div className=" relative">
               <div className="img_layer cursor-pointer w-[100%] h-[100%] hover:opacity-[2] flex justify-center items-center opacity-0 hover:rounded-[8px] absolute top-0 left-0 duration-500  ">
                 <div className=" relative">
-                  <button className=" border-[1px] border-[#fff] font-bold text-[16px] ff_inter text-white px-[46px] py-[13px] rounded-[41px] ">
+                  <button className="hover:shadow-[inset_18rem_0_0_0_#fff] hover:text-[#00141b] shadow-[inset_0_0_0_0]  duration-500 border-[1px] border-[#fff] font-bold text-[16px] font-ff-inter text-white px-[46px] py-[13px] rounded-[41px] ">
                     Jugar{" "}
                   </button>
                   <img
@@ -173,7 +172,7 @@ const Slots = () => {
             <div className=" relative">
               <div className="img_layer cursor-pointer w-[100%] h-[100%] hover:opacity-[2] flex justify-center items-center opacity-0 hover:rounded-[8px] absolute top-0 left-0 duration-500  ">
                 <div className=" relative">
-                  <button className=" border-[1px] border-[#fff] font-bold text-[16px] ff_inter text-white px-[46px] py-[13px] rounded-[41px] ">
+                  <button className="hover:shadow-[inset_18rem_0_0_0_#fff] hover:text-[#00141b] shadow-[inset_0_0_0_0]  duration-500 border-[1px] border-[#fff] font-bold text-[16px] font-ff-inter text-white px-[46px] py-[13px] rounded-[41px] ">
                     Jugar{" "}
                   </button>
                   <img
@@ -201,7 +200,7 @@ const Slots = () => {
             <img
               className="absolute bottom-[-13%] left-[-3%]"
               src={btnline}
-              alt=""
+              alt="btniline"
             />
           </div>
         </div>

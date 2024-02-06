@@ -15,7 +15,7 @@ const Jackpot = () => {
     <div className="relative">
       <div
         id="elegirnos"
-        className="bg-jackpot  relative pb-10 pt-10 lg:pt-5 xl:pt-[130px] xl:pb-[114px] overflow-hidden"
+        className="bg-jackpot bg-no-repeat !bg-center  relative pb-10 pt-10 lg:pt-5 xl:pt-[130px] xl:pb-[114px] overflow-hidden"
       >
         <div className="max-w-[1164px] px-3 mx-auto ">
           <div className="flex flex-row flex-wrap -mx-3 pb-[75px]">
@@ -24,7 +24,7 @@ const Jackpot = () => {
               data-aos-duration="2000"
               className="w-full z-30 md:w-1/2 px-3"
             >
-              <img className="w-full h-full" src={jackpot} alt="" />
+              <img className="w-full h-full" src={jackpot} alt="jackpot" />
             </div>
             <div
               data-aos="fade-left"
@@ -85,7 +85,7 @@ const Jackpot = () => {
             </div>
           </div>
           <div className="flex flex-col justify-center items-center">
-            <div className="max-w-full w-[1043px]  border-[.5px]  border-white rounded-[16px] bg_jackpot_2  xl:my-[75px]">
+            <div className="max-w-full w-[1043px]  border-[.5px]  border-white rounded-[16px] bg_jackpot_2 bg-no-repeat !bg-center  xl:my-[75px]">
               <div className="flex items-center justify-center py-10 md:py-[96px]">
                 {" "}
                 <h2
@@ -116,7 +116,7 @@ const Jackpot = () => {
               <div className=" relative">
                 <div className="img_layer cursor-pointer w-[100%] h-[100%] hover:opacity-[2] flex justify-center items-center opacity-0 hover:rounded-[8px] absolute top-0 left-0 duration-500  ">
                   <div className=" relative">
-                    <button className=" border-[1px] border-[#fff] font-bold text-[16px] ff_inter text-white px-[46px] py-[13px] rounded-[41px] ">
+                    <button className="hover:shadow-[inset_18rem_0_0_0_#fff] hover:text-[#00141b] shadow-[inset_0_0_0_0]  duration-500 border-[1px] border-[#fff] font-bold text-[16px] font-ff-inter text-white px-[46px] py-[13px] rounded-[41px] ">
                       Reproducir ahora
                     </button>
                     <img
@@ -132,7 +132,6 @@ const Jackpot = () => {
                   alt="img"
                 />
               </div>
-              {/* <img className="w-full rounded-[8px]" src={elos1} alt="" /> */}
             </div>{" "}
             <div
               data-aos="zoom-in"
@@ -142,7 +141,7 @@ const Jackpot = () => {
               <div className=" relative">
                 <div className="img_layer cursor-pointer w-[100%] h-[100%] hover:opacity-[2] flex justify-center items-center opacity-0 hover:rounded-[8px] absolute top-0 left-0 duration-500  ">
                   <div className=" relative">
-                    <button className=" border-[1px] border-[#fff] font-bold text-[16px] ff_inter text-white px-[46px] py-[13px] rounded-[41px] ">
+                    <button className="hover:shadow-[inset_18rem_0_0_0_#fff] hover:text-[#00141b] shadow-[inset_0_0_0_0]  duration-500 border-[1px] border-[#fff] font-bold text-[16px] font-ff-inter text-white px-[46px] py-[13px] rounded-[41px] ">
                       Reproducir ahora
                     </button>
                     <img
@@ -158,7 +157,6 @@ const Jackpot = () => {
                   alt="img"
                 />
               </div>
-              {/* <img className="w-full rounded-[8px]" src={elos1} alt="" /> */}
             </div>{" "}
             <div
               data-aos="zoom-in"
@@ -168,7 +166,7 @@ const Jackpot = () => {
               <div className=" relative ">
                 <div className="img_layer cursor-pointer w-[100%] h-[100%] hover:opacity-[2] flex justify-center items-center opacity-0 hover:rounded-[8px] absolute top-0 left-0 duration-500  ">
                   <div className=" relative">
-                    <button className=" border-[1px] border-[#fff] font-bold text-[16px] ff_inter text-white px-[46px] py-[13px] rounded-[41px] ">
+                    <button className="hover:shadow-[inset_18rem_0_0_0_#fff] hover:text-[#00141b] shadow-[inset_0_0_0_0]  duration-500 border-[1px] border-[#fff] font-bold text-[16px] font-ff-inter text-white px-[46px] py-[13px] rounded-[41px] ">
                       Reproducir ahora
                     </button>
                     <img
@@ -184,7 +182,6 @@ const Jackpot = () => {
                   alt="img"
                 />
               </div>
-              {/* <img className="w-full rounded-[8px]" src={elos1} alt="" /> */}
             </div>{" "}
           </div>
         </div>

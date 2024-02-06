@@ -7,7 +7,6 @@ const My_footer = () => {
 
   return (
     <div className="bg-black relative mt-[-2px] overflow-hidden md:mt-[75px]">
-      {" "}
       <div className="container max-w-[1164px] px-3 mx-auto ">
         <div className="flex flex-row flex-wrap  justify-between -mx-3 pt-10 md:pt-[64px] pb-5 md:pb-[40px]">
           <div className="lg:w-1/3 w-full px-3">

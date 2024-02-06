@@ -9,7 +9,7 @@ const Casino = () => {
     AOS.init({ once: true });
   }, []);
   return (
-    <div className="bg-white casino-bg-img lg:bg-[#00141b] mt-[-2px] overflow-hidden">
+    <div className="bg-white casino-bg-img bg-no-repeat !bg-center lg:bg-[#00141b] mt-[-2px] overflow-hidden">
       <div className="container max-w-[1164px] px-3 mx-auto py-10 lg:py-[150px] xl:py-[290px] md:mb-[44px]">
         <div className="flex flex-row flex-wrap items-center justify-center -mx-3 ">
           <div
@@ -32,7 +32,7 @@ const Casino = () => {
               <img
                 className="absolute bottom-[-13%] left-[-1%]"
                 src={btnline}
-                alt=""
+                alt="btn-line"
               />
             </div>{" "}
           </div>
@@ -41,7 +41,7 @@ const Casino = () => {
             data-aos-duration="2000"
             className="w-full md:w-1/2 px-3 pt-6 md:pt-0"
           >
-            <img className="w-full rounded-[8px]" src={casino} alt="" />
+            <img className="w-full rounded-[8px]" src={casino} alt="casino" />
           </div>
         </div>
       </div>

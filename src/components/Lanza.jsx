@@ -10,7 +10,7 @@ const Lanza = () => {
   return (
     <div className="bg-[#00141b] mt-[-2px]">
       <div className="container max-w-[1164px] px-3 mx-auto pt-10 xl:pt-[118px] pb-7 xl:pb-[75px]">
-        <div className="border-[.5px] border-white rounded-[16px] lanza-bg px-1 sm:px-0">
+        <div className="border-[.5px] border-white rounded-[16px] lanza-bg bg-no-repeat !bg-center px-1 sm:px-0">
           <h2
             data-aos="zoom-in"
             data-aos-duration="2000"
@@ -28,7 +28,7 @@ const Lanza = () => {
               <img
                 className="absolute bottom-[-13%] left-[-3%]"
                 src={btnline}
-                alt=""
+                alt="btn-line"
               />
             </div>
           </div>

@@ -1,7 +1,6 @@
 import React, { useEffect, useState } from "react";
 import arow1 from "../assets/images/arrow1.webp";
 import arow2 from "../assets/images/arrow2.webp";
-
 import { Marcaone, Marcathree, Marcatwo } from "../common_svg/icon";
 import Slots from "./Slots";
 
@@ -76,13 +75,13 @@ const Marca = () => {
           <img
             className="absolute top-[38%] lg:top-[58%] xl:top-[50%] left-[23%] lg:left-[22%] max-w-[200px] lg:max-w-[242px] w-full hidden md:block"
             src={arow1}
-            alt=""
+            alt="arrow1"
           />
         </span>
         <img
           className="absolute top-[45%] lg:top-[68%] xl:top-[60%] right-[23%] lg:right-[22%] max-w-[200px] lg:max-w-[242px] w-full hidden md:block"
           src={arow2}
-          alt=""
+          alt="arrow2"
         />
       </div>
       <Slots />

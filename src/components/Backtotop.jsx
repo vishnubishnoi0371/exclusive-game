@@ -19,7 +19,7 @@ const Backtotop = () => {
       {backtotop ? (
         <button
           onClick={runTop}
-          className="fixed 'smooth'   w-[40px] h-[40px] rounded-full bg-[#6ae4a7] z-40 bottom-0 right-1 duration-500 flex items-center justify-center  me-2 mb-2  cursor-pointer"
+          className="fixed 'smooth'  animate-flip   w-[40px] h-[40px] rounded-full bg-[#6ae4a7] z-40 bottom-0 right-1 duration-500 flex items-center justify-center  me-2 mb-2  cursor-pointer"
         >
           <svg
             width="20"

@@ -4,6 +4,7 @@ import platnium from "../assets/images/platnium.webp";
 import { Tickmark } from "../common_svg/icon";
 import Samebtn from "./Samebtn";
 import btnline from "../assets/images/btn_line.webp";
+import sh from "../assets/images/sh-jack.png";
 import btnline2 from "../assets/images/white-line.webp";
 import aheart from "../assets/images/aheart.webp";
 import abreks from "../assets/images/abreks.webp";
@@ -43,12 +44,17 @@ const Ofertas = () => {
               <div
                 data-aos="fade-right"
                 data-aos-duration="2000"
-                className=" md:w-6/12 z-30 w-full px-3"
+                className="relative md:w-6/12 z-30 w-full px-3"
               >
                 <img
                   className="w-full md:w-[125%] xl:w-[118%] max-w-[700px] max-h-[500px]  h-full lg:px-[40px] md:px-2 rounded-[8px]"
                   src={silver}
-                  alt=""
+                  alt="silver"
+                />
+                <img
+                  className="absolute hidden lg:block bottom-[-6%] left-5"
+                  src={sh}
+                  alt="sh"
                 />
               </div>
               <div
@@ -116,7 +122,7 @@ const Ofertas = () => {
                     <img
                       className="absolute bottom-[-13%] left-[-1%]"
                       src={btnline2}
-                      alt=""
+                      alt="btn-line"
                     />
                   </div>
                 </div>
@@ -124,7 +130,7 @@ const Ofertas = () => {
             </div>
             <span className="md:w-[280px] w-[180px] h-[180px] z-20 md:h-[280px] bg-[#69e2a9] absolute left-[8%] top-[5%] md:top-[10%] opacity-[50%] rounded-full ft_ep_1"></span>
           </div>
-          <div className="border-[.5px] relative z-30 border-white rounded-[16px] bg-[#062023] p-3 pt-[38px] mb-6 lg:mb-[64px] pb-[41px] bg-luxury">
+          <div className="border-[.5px] relative z-30 border-white rounded-[16px] bg-[#062023] p-3 pt-[38px] mb-6 lg:mb-[64px] pb-[41px] bg-no-repeat !bg-center bg-luxury">
             <div
               data-aos="zoom-in"
               data-aos-duration="2000"
@@ -191,7 +197,7 @@ const Ofertas = () => {
                     <img
                       className="absolute bottom-[-13%] left-[-3%]"
                       src={btnline}
-                      alt=""
+                      alt="btn-line"
                     />
                   </div>
                 </div>
@@ -199,24 +205,24 @@ const Ofertas = () => {
             </div>
             <span>
               <img
-                className="absolute hidden lg:block top-[16%] right-[11%] z-50"
+                className="absolute  animate-flip hidden lg:block top-[16%] right-[11%] z-50"
                 src={aheart}
-                alt=""
+                alt="heart"
               />
               <img
-                className="absolute hidden lg:block bottom-[13%] left-[13%] z-50"
+                className="absolute  animate-flip  hidden lg:block bottom-[13%] left-[13%] z-50"
                 src={abreks}
-                alt=""
+                alt="breks"
               />
               <img
-                className="absolute top-[2%] lg:top-[13%] left-[40%] sm:left-[20%] "
+                className="absolute animate-rotate top-[2%] lg:top-[13%] left-[40%] sm:left-[20%] "
                 src={caram}
-                alt=""
+                alt="carm"
               />
               <img
-                className="absolute bottom-[5%] md:bottom-[15%] right-[15%] "
+                className="absolute animate-rotate bottom-[5%] md:bottom-[15%] right-[15%] "
                 src={ludo}
-                alt=""
+                alt="ludo"
               />
             </span>
           </div>
@@ -250,7 +256,7 @@ const Ofertas = () => {
                   <img
                     className="absolute bottom-[-13%] left-[-.8%]"
                     src={btnline2}
-                    alt=""
+                    alt="btn-line"
                   />
                 </div>
               </div>
@@ -262,7 +268,7 @@ const Ofertas = () => {
                 <img
                   className="w-full h-full rounded-[8px]"
                   src={platnium}
-                  alt=""
+                  alt="platnium"
                 />
               </div>
               <span className="w-[280px]  h-[280px] bg-[#69e2a9] absolute right-[11%] top-[5%] md:top-[14%] opacity-[50%] rounded-full ft_ep_1"></span>
