@@ -188,6 +188,7 @@ const Jackpot = () => {
         <span className="md:w-[480px] md:h-[480px] w-[280px] h-[280px] bg-[#69e2a9] absolute hidden lg:block lg:right-[-18%] bottom-[18%] opacity-[50%] rounded-full ft_ep_1"></span>
       </div>
       <span className="md:w-[480px] md:h-[480px] w-[280px] h-[280px] bg-[#69e2a9] absolute left-[-18%] top-[0%] md:top-[-15%] opacity-[50%]  rounded-full ft_ep_1"></span>
+      <span className="md:w-[180px] md:h-[180px] hidden md:block bg-[#69e2a9] absolute left-[38%] top-[2%] md:top-[-15%] opacity-[50%]  rounded-full ft_ep_1"></span>
     </div>
   );
 };

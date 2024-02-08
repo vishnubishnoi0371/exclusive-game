@@ -3,7 +3,7 @@ import footerlogo from "../assets/images/footer_logo.webp";
 import { Face, Insta, Linkdin, Mail, Phone } from "../common_svg/icon";
 
 const My_footer = () => {
-  const phoneNumber = "+2349067322844";
+  const phoneNumber = "9992877529";
 
   return (
     <div className="bg-black relative mt-[-2px] overflow-hidden md:mt-[75px]">
@@ -23,28 +23,31 @@ const My_footer = () => {
               <a
                 href="https://www.instagram.com/"
                 target="blank"
-                className="rounded-full duration-500 hover:translate-y-[-20%]     cursor-pointer flex items-center justify-center w-[32px] h-[32px] p-[7px] bg-[#292929]"
+                class="group flex justify-center p-2  drop-shadow-xl from-gray-800 bg-[#292929] text-white font-semibold hover:translate-y-[-8px] font-ff-inter rounded-[50%] transition-all duration-500 hover:from-[#331029] hover:to-[#310413]"
               >
-                <span>
-                  <Insta />
+                <Insta />
+                <span class="absolute opacity-0 group-hover:opacity-100 group-hover:text-white group-hover:text-sm group-hover:-translate-y-[-40px] duration-700">
+                  Instagram
                 </span>
               </a>
               <a
                 href="https://www.facebook.com/login/"
                 target="blank"
-                className="rounded-full duration-500 hover:translate-y-[-20%]     cursor-pointer flex items-center justify-center w-[32px] h-[32px] p-[5px_11px] bg-[#292929]"
+                class="group flex justify-center  p-[7px_12px]  drop-shadow-xl from-gray-800 bg-[#292929] text-white font-semibold hover:translate-y-[-8px] font-ff-inter rounded-[50%] transition-all duration-500 hover:from-[#331029] hover:to-[#310413]"
               >
-                <span>
-                  <Face />
-                </span>{" "}
+                <Face />
+                <span class="absolute opacity-0 group-hover:opacity-100 group-hover:text-white group-hover:text-sm group-hover:-translate-y-[-40px] duration-700">
+                  Facebook
+                </span>
               </a>
               <a
                 href="https://www.linkedin.com/feed/"
                 target="blank"
-                className="rounded-full duration-500 hover:translate-y-[-20%]     cursor-pointer flex items-center justify-center w-[32px] h-[32px] p-[7px] bg-[#292929]"
+                class="group flex justify-center p-2  drop-shadow-xl from-gray-800 bg-[#292929] text-white font-semibold hover:translate-y-[-8px] font-ff-inter rounded-[50%] transition-all duration-500 hover:from-[#331029] hover:to-[#310413]"
               >
-                <span>
-                  <Linkdin />
+                <Linkdin />
+                <span class="absolute opacity-0 group-hover:opacity-100 group-hover:text-white group-hover:text-sm group-hover:-translate-y-[-40px] duration-700">
+                  Linkdin
                 </span>
               </a>
             </div>
@@ -154,7 +157,7 @@ const My_footer = () => {
                       href={`tel:${phoneNumber}`}
                       className="font-medium text-nowrap cursor-pointer  font-ff-inter text-base text-[#cccccc] relative not-italic leading-[26px] before:absolute before:w-0 before:-bottom-1  before:right-full before:duration-500  before:h-[2px] before:bg-white before:contents'' hover:before:w-full hover:before:right-0"
                     >
-                      (101)342-7873{" "}
+                      (101)342-7873
                     </a>
                   </li>
                 </ul>

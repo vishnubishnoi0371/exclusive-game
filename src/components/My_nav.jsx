@@ -21,7 +21,7 @@ const My_Nav = () => {
     setshow(false);
   };
   return (
-    <div className="bg-[url('../src/assets/images/hero_bg.webp')] lg:min-h-[810px] min-h-[750px] flex flex-col bg-no-repeat bg-100% md:min-h-[800px] overflow-hidden ">
+    <div className="bg-[url('../src/assets/images/hero_bg.webp')] flex flex-col bg-no-repeat bg-100% min-h-[100vh] overflow-hidden ">
       <div className=" relative z-30">
         <nav className=" nav_bg py-[19px]">
           <div className=" container  mx-auto max-w-[1164px] px-3">
@@ -123,7 +123,7 @@ const My_Nav = () => {
       <div id="Hogar" className=" flex-grow flex">
         <div className=" container  mx-auto max-w-[1164px] px-3 flex items-center justify-center">
           <div
-            className="  text-center mt-[-150px] lg:mt-0"
+            className="  text-center m150px] lg:mt-0"
             data-aos="zoom-in"
             data-aos-duration="2000"
           >

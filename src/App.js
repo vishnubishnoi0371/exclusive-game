@@ -9,7 +9,6 @@ import Ofertas from "./components/Ofertas";
 import Eloss from "./components/Eloss";
 import Lanza from "./components/Lanza";
 import My_footer from "./components/My_footer";
-// import Accordion_Faq from "./components/Accordion_Faq";
 import Backtotop from "./components/Backtotop";
 import Preload from "./components/Preload";
 import Acc from "./components/Acc";
@@ -28,7 +27,6 @@ function App() {
       <Ofertas />
       <Eloss />
       <Acc/>
-      {/* <Accordion_Faq /> */}
       <Lanza />
       <My_footer />
     </div>
